@@ -7,19 +7,27 @@
 </head>
 <body>
 
-    <h1>Formulário de cadastro</h1>
+    <header>
+        <h1>Formulário de cadastro</h1>
+    </header>
 
-    <form>
-        <label for="nome">Nome: </label>
-        <input id="nome" type="text">
+    <main>
+        <form>
+            <label for="nome">Nome: </label>
+            <input id="nome" type="text" placeholder="Seu nome">
+    
+            <br>
+            <label for="mail">E-mail: </label>
+            <input id="mail" type="email" placeholder="Seu e-mail">
+    
+            <br>
+            <label for="pass">Senha: </label>
+            <input id="pass" type="password" placeholder="Sua senha">
+        </form>
 
-        <br>
-        <label for="mail">E-mail: </label>
-        <input id="mail" type="email">
+        <button type="submit">Cadastrar</button>
+    
+    </main>
 
-        <br>
-        <label for="pass">Senha: </label>
-        <input id="pass" type="password">
-    </form>
 </body>
 </html>
